@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Busy Day - Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="heading">
+                <img src="images/check-square.png" style="height: 30px; width: 30px; margin-top: 10px;"/>
+                <h1 >Busy Day</h1></div>
+            <div><h1 class="greet">Hello, Emily!</h1></div>
+            <div class="controls">
+                <button id="add-list-btn" class="add-list-btn">+ Add New List</button>
+            </div>
+        </header>
+
+        <div class="color-picker" >
+            <span class="color black" data-color="#000"></span>
+            <span class="color beige" data-color="#f5f5dc"></span>
+            <span class="color pink" data-color="#ffcccb"></span>
+            <span class="color purple" data-color="#dda0dd"></span>
+            <span class="color green" data-color="#90ee90"></span>
+            <span class="color gray" data-color="#d3d3d3"></span>
+        </div>
+
+        <section class="lists-container">
+            <!-- To-Do Lists will go here -->
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
